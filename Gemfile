@@ -77,3 +77,5 @@ gem 'jquery-ui-rails'
 gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'will_paginate'
+
+gem 'friendly_id'
