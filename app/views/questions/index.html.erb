@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Questions</h1>
+
+<blockquote class="blockquote">
+  <footer class="blockquote-footer"><cite title="Source Title">Drag and drop question to re-order position</cite></footer>
+</blockquote>
+
+<div id="questions" class="list-group" data-url="<%= sort_questions_path %>">
+  <% @questions.each do |question| %>
+    <td><%= link_to question.name, question, class: 'list-group-item', id: dom_id(question) %></td>
+  <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Question', new_question_path %>

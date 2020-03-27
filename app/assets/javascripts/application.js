@@ -14,6 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery3
+//= require jquery-ui/widget
+//= require jquery-ui/widgets/sortable
 //= require popper
 //= require bootstrap-sprockets
 //= require datatables

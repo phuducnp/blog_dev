@@ -84,3 +84,5 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'will_paginate'
 
 gem 'friendly_id'
+
+gem 'acts_as_list'
