@@ -9,5 +9,9 @@ Rails.application.routes.draw do
 
   get '/users', to: 'users#index'
 
+  resources :products do
+    collection { post :import }
+  end
+
   root 'homes#index'
 end
