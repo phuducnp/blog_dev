@@ -62,7 +62,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-  gem 'rack-mini-profiler'
+  # gem 'rack-mini-profiler'
 end
 
 group :test do
@@ -86,3 +86,6 @@ gem 'will_paginate'
 gem 'friendly_id'
 
 gem 'acts_as_list'
+
+gem "roo"
+gem "activerecord-import"
