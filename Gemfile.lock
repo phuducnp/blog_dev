@@ -175,8 +175,6 @@ GEM
     rack (2.2.2)
     rack-contrib (2.1.0)
       rack (~> 2.0)
-    rack-mini-profiler (2.0.1)
-      rack (>= 1.2.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.4.2)
@@ -304,7 +302,6 @@ DEPENDENCIES
   pry
   pry-rails
   puma (~> 3.11)
-  rack-mini-profiler
   rails (~> 5.2.4, >= 5.2.4.1)
   roo
   sass-rails (~> 5.0)
