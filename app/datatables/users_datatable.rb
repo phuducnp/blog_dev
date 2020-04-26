@@ -16,7 +16,6 @@ class UsersDatatable
   end
 
   private
-
   def data
     users.map do |user|
       [

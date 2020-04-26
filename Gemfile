@@ -63,6 +63,8 @@ group :development do
   gem 'binding_of_caller'
   gem 'meta_request'
   gem 'rack-mini-profiler'
+
+  gem 'rubocop', require: false
 end
 
 group :test do
